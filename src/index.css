@@ -149,3 +149,86 @@ nav .menu-btn,
   color: #ffffff;
 }
 
+.name h1 {
+  font-family: 'Lato';
+  font-size: 5rem;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.header-btns {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+.header-btn {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: #FF1414;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.header-btn:hover {
+  background-color: transparent;
+  transition: all ease 0.5s;
+  color: #ffffff;
+  border: 2px solid #FF1414;
+}
+
+#features {
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+  font-family: 'Lato';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: #000000;
+}
+
+.span1 {
+  color: #f70000;
+}
+
+#features h1 {
+  color: #fff;
+  font-size: 3rem;
+   
+}
+
+.a-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+
+}
+
+.a-box {
+  background-color: #000000;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+
+.a-b-img {
+  width: 100%;
+  height: 60%;
+
+}
+
+
