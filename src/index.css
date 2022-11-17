@@ -714,3 +714,22 @@ nav .menu-btn,
   }
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FF1414 #e8e8e8;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #020202;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FF1414;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
