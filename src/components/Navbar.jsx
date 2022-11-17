@@ -17,7 +17,7 @@ function Navbar() {
     window.addEventListener('scroll', changeBackground)
 
     return (
-        <nav className={nav ? "nav active" : "nav"}>
+        <nav className={nav ? "nav active" :"nav"}>
             <Link to='#' className='logo'>
                 <img src={logo} alt='' />
             </Link>
@@ -36,4 +36,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
