@@ -10,12 +10,12 @@ function Feature() {
   return (
     <div id='features'>
       <h1>
-       Nossos <span className='span1'> Serviços </span>  exclusivos
+        Nossos <span className='span1'> Serviços </span>  exclusivos
         <div className='a-container'>
-        <FeatureBox image={fimage1} title='Levantamento de peso'/>
-        <FeatureBox image={fimage2} title='Aeróbico'/>
-        <FeatureBox image={fimage3} title='Hipertrofia'/>
-        <FeatureBox image={fimage4} title='Aulas Práticas'/>
+          <FeatureBox image={fimage1} title='Levantamento de peso' />
+          <FeatureBox image={fimage2} title='Aeróbico' />
+          <FeatureBox image={fimage3} title='Hipertrofia' />
+          <FeatureBox image={fimage4} title='Aulas Práticas' />
         </div>
       </h1>
     </div     >
